@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+
+* { margin: 0; padding: 0; }
+ol, ul { list-style: none; }
+a { text-decoration: none; color: #000; }
+
+img { max-width: 100%; height: auto; }
+.clear { clear: both; }
+body { background-image: url(../images/bg.jpg); background-repeat: repeat; font-family: 'Open Sans', sans-serif; margin: 10px; padding: 0; }
+header { background: none repeat scroll 0 0 #fff; margin: 0 auto; padding: 0; width: 1200px; }
+footer { background-color: #242424; overflow: hidden; padding: 20px 0 0; box-sizing: border-box; width: 1200px; margin: 0 auto; }
+/*three-box*/
+.title { color: #fffffc; background-color: #b7282e; font-size: 36px; padding: 10px 0; text-align: center; font-weight: normal; }
+table.data-table.two-column { margin: 0; padding: 0; width: 100%; }
+table.data-table.two-column tr td { background-color: #f8f4e6; color: #302833; font-size: 24px; padding: 6px; }
+table.data-table.two-column tr td.grade-body { background-color: #f8f4e6; color: #302833; font-size: 18px; padding: 6px; }
+table.data-table.two-column tr td.condition-title { background-color: #fddea5; color: #302833; font-weight: bold; padding: 5px; text-align: left; width: 225px; }
+table.data-table.two-column tr td.grade-title { background-color: #fddea5; color: #302833; font-weight: bold; font-size: 18px; padding: 5px; text-align: left; width: 150px; }
+table.data-table.two-column tr td.none { background-color: #fff; height: 64px; }
+table.data-table.two-column tr td.remarks { height: 120px; }
+.product-table { width: 100%; margin: 0px auto 0; }
+.product-table h2.title { text-align: left; padding-left: 25px; }
+.producttable-data { padding: 25px 10px; border: 1px solid #ccc; }
+.producttable-data .condition { margin-bottom: 24px; }
+.producttable-data .left { float: left; width: 49%; margin-right: 1%; }
+.producttable-data .right { float: right; width: 50%; }
+.table-title { color: #fffffc; background-color: #302833; display: inline-block; padding: 10px; font-weight: normal;  font-size: 28px;}
+.table-title-grade { color: #fffffc; background-color: #302833; display: inline-block; padding: 8px; font-weight: normal;  font-size: 22px;}
+.table-title-none { color: #fff; background-color: #fff; display: inline-block; padding: 8px; font-weight: normal;  font-size: 22px;}
+/*why-us*/
+.why-us { width: 100%; margin: 25px auto 0; }
+.why-us h2.title { text-align: left; padding-left: 25px; }
+.why-fsc { margin: 0; padding: 0; }
+.why-fsc li { float: left; list-style: outside none none; min-height: 230px; width: 50%; }
+.why-fsc li .icon { display: inline-block; float: left; height: 65px; vertical-align: top; width: 65px; }
+.why-fsc li .data { color: #302833; margin-left: 80px; overflow: auto; }
+.why-fsc li .data .title { color: #e6b422; display: block; font-weight: bold; margin-bottom: 15px; background-color: inherit; font-size: 30px; text-align: left; }
+.whyus-data { padding: 25px 15px 0px; border: 1px solid #ccc; }
