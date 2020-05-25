@@ -3,7 +3,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
 
 * { margin: 0; padding: 0; }
-ol, ul { list-style: none; }
 a { text-decoration: none; color: #000; }
 
 img { max-width: 100%; height: auto; }
